@@ -1,0 +1,21 @@
+﻿@model CoreAndFood.Data.Models.Category
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+
+    @using (Html.BeginForm("CatAdd", "Category", FormMethod.Post))
+    {
+        <div>
+            <label>Category Name</label>
+            @Html.TextBoxFor(m=>m.Name,new{@class="form-control",required=""})
+            @Html.ValidationMessageFor(m=>m.Name,"",new  {style="colo:red"})
+        </div>
+        <br />
+        <div>
+            <button class="btn btn-success">Add</button>
+        </div>
+
+    }
+    </div>

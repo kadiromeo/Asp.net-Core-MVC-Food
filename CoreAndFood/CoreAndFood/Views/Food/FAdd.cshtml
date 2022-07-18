@@ -1,0 +1,46 @@
+﻿@model CoreAndFood.Data.Models.addProduct
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container mt-5">
+    <form class="form-group" action="FAdd" asp-controller="Food" method="post" enctype="multipart/form-data">
+         
+        <div>
+            <label>Food Name</label>
+            @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            <label>Food Description</label>
+            @Html.TextAreaFor(m => m.Description, new { @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            <label>Food Stock</label>
+            @Html.TextBoxFor(m => m.Stock, new { @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            <label>Food Price(₺)</label>
+            @Html.TextBoxFor(m => m.Price, new { @class = "form-control" })
+        </div>
+        <br />
+        <div>
+            <label>Food Image</label>
+            <input type="file" name="ImageUrl" class="form-control" />
+        </div>
+        <br />
+        <div>
+            <label>Food Category</label>
+            @Html.DropDownListFor(m => m.CategoryId, (List<SelectListItem>)ViewBag.vls, new { @class = "form-control" })
+        </div>
+        <br />
+
+        <div>
+            <button class="btn btn-success">Add</button>
+        </div>
+
+    </form>
+</div>

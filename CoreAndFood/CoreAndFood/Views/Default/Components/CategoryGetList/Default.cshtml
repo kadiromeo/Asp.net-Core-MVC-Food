@@ -1,0 +1,9 @@
+﻿@model IEnumerable<CoreAndFood.Data.Models.Category>
+<ul class="list-group">
+    <li class="list-group-item active" aria-current="true">Kategoriler</li>
+    @foreach (var item in Model)
+    {
+        <li class="list-group-item"><a href="/Default/CategoryGetList/@item.Id">@item.Name</a></li>
+    }
+   
+</ul>

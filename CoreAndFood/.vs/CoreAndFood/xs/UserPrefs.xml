@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{3B5FA975-5B84-4C4E-A041-A14D6D927AE7}|Default">
+  <MonoDevelop.Ide.ItemProperties.CoreAndFood PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CoreAndFood/Views/Food/FAdd.cshtml">
+    <Files>
+      <File FileName="CoreAndFood/Controllers/CategoryController.cs" Line="22" Column="14" />
+      <File FileName="CoreAndFood/Views/Category/Index.cshtml" Line="10" Column="41" />
+      <File FileName="CoreAndFood/Data/Models/addProduct.cs" Line="16" Column="1" />
+      <File FileName="CoreAndFood/Controllers/FoodController.cs" Line="44" Column="98" />
+      <File FileName="CoreAndFood/Data/Models/Food.cs" Line="9" Column="21" />
+      <File FileName="CoreAndFood/Views/Food/FAdd.cshtml" Line="28" Column="9" />
+      <File FileName="CoreAndFood/Repositories/GenericRepository.cs" Line="16" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CoreAndFood" expanded="True">
+            <Node name="CoreAndFood" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Food" expanded="True">
+                  <Node name="FAdd.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
